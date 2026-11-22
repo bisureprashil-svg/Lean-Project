@@ -2,7 +2,14 @@
 // Firebase console → Project settings → General → Your apps → Web app → "firebaseConfig".
 // (This config is not a secret — your data is protected by Firebase Auth + firestore.rules.)
 // Leave it as null to paste the config in the app instead (needed once per device).
-window.LEANPLAN_FIREBASE_CONFIG = null;
+window.LEANPLAN_FIREBASE_CONFIG = {
+  apiKey: "…",
+  authDomain: "lean-plan-xxxx.firebaseapp.com",
+  projectId: "lean-plan-xxxx",
+  storageBucket: "…",
+  messagingSenderId: "…",
+  appId: "…"
+};
 /* Example:
 window.LEANPLAN_FIREBASE_CONFIG = {
   apiKey: "AIza...",
